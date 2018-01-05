@@ -1,0 +1,164 @@
+.App {
+  text-align: left;
+  max-width: 600px;
+  margin: 70px;
+  line-height: 1.4rem;
+  word-spacing: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#mainHeading {
+  color: rgba(0,0,0, 0.8)
+}
+
+#demoPara {
+  color: rgb(128,128,128);
+}
+
+.skillsInput {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+#inputText {
+  width: 450px;
+}
+
+#addBtn {
+  margin-left: 15px;
+  width: 100px;
+  background-color: rgb(240,248,255);
+  color: rgb(30,144,255);
+  border: none;
+}
+
+#errorMessage {
+  color: rgb(30,144,255);
+  background-color: rgb(240,248,255);
+  padding: 10px;
+  text-align: left;
+  vertical-align: center;
+  text-transform: capitalize;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.08rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.output {
+  margin-top: 30px;
+  margin-left: -15px;
+}
+
+.crossIcon {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.continueBtn {
+  width: 600px;
+  background-color: rgb(30,144,255);
+  color: rgb(240,248,255);
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+}
+
+.banner {
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.banner:hover {
+  border: 0.2px solid rgb(30,144,255);
+}
+
+.banner h1 {
+  text-align: center;
+  color: rgb(30,144,255);
+  font-size: 20rem;
+}
+
+.banner h2 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.banner h3#dodo {
+  font-size: 6rem;
+  padding-left: 15%;
+}
+
+.lower {
+  line-height: 0.5rem;
+  word-spacing: 0.01rem;
+  font-size: 1.3rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.lower h3 {
+  font-size: 1.56rem;
+}
+
+.lower h4 {
+  font-size: 1.27rem;
+}
+
+.lower h5 {
+  font-size: 1.04rem;
+}
+
+.lower h6 {
+  font-size: 0.74rem;
+}
+
+.lower h6#line:after {
+  content: "";
+  position: absolute;
+  border-bottom: 10px solid black;
+  width: 350px;
+  margin-left: 5px;
+}
+
+#rightRect {
+  stroke: black;
+  stroke-width: 10px;
+  fill: none;
+}
+
+.dodoRect {
+  z-index: -1;
+}
+
+/* Rectangle style*/
+#rect1 {
+  position: relative;
+  top: 250px;
+  transform: rotate(-20deg);
+}
+
+#rect2 {
+  position: relative;
+  top: 60px;
+  transform: rotate(45deg);
+}
+
+#rect3 {
+  position: relative;
+  padding-right: 120px;
+}
+
+#rect4 {
+  position: relative;
+  top: 100px;
+  float: right;
+}

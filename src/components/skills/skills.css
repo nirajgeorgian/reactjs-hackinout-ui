@@ -1,0 +1,19 @@
+.skillOutput{
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 30px;
+}
+
+[draggable] {
+  user-select: none;
+}
+
+.outputSkill {
+  border: none;
+  background-color: rgb(127,255,212);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 35px;
+  cursor: move;
+}
